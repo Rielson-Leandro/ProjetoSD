@@ -1,10 +1,10 @@
-|menorQue
-pin_name <= inst5.DB_MAX_OUTPUT_PORT_TYPE
-Cin => inst3.IN0
-Cin => inst4.IN0
-A => inst7.IN0
-A => inst6.IN0
-B => inst4.IN1
-B => inst.IN1
+|maiorque1bit
+Out <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A => inst3.IN0
+A => inst2.IN0
+Cin => inst3.IN1
+Cin => inst4.IN1
+B => inst8.IN0
+B => inst.IN0
 
 

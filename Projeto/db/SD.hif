@@ -118,8 +118,42 @@ menorque.bdf
 BLOCK_DESIGN_NAMING
 AUTO
 }
+# macro_sequence
+
+# end
+# entity
+maiorque1bit
+# storage
+db|SD.(6).cnf
+db|SD.(6).cnf
+# case_insensitive
+# source_file
+maiorque1bit.bdf
+2a7395b9f831f5ff8f7cbd17ff6e9d53
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
 # hierarchies {
 |
+}
+# macro_sequence
+
+# end
+# entity
+maiorque4bits
+# storage
+db|SD.(7).cnf
+db|SD.(7).cnf
+# case_insensitive
+# source_file
+maiorque4bits.bdf
+b682e66e72eeaec5a09a27cd314c7
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
 }
 # macro_sequence
 
