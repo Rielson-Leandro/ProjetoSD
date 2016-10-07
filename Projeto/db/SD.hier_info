@@ -3,11 +3,11 @@ Out <= menorQue1bit:inst3.Cout
 A[0] => menorQue1bit:inst6.A
 A[1] => menorQue1bit:inst5.A
 A[2] => menorQue1bit:inst4.A
-A[3] => menorQue1bit:inst3.A
+A[3] => inst1.IN0
 B[0] => menorQue1bit:inst6.B
 B[1] => menorQue1bit:inst5.B
 B[2] => menorQue1bit:inst4.B
-B[3] => menorQue1bit:inst3.B
+B[3] => inst2.IN0
 
 
 |menorQue4bits|menorQue1bit:inst3
