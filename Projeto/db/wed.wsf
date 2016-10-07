@@ -809,11 +809,19 @@ VECTOR("C:/Users/afa4/Desktop/quartus/Projeto/xor4bits.vwf")
 	}
 }
 
+<<<<<<< HEAD
 VECTOR("C:/Users/lams3/Desktop/ProjetoSD/Projeto/maiorque4bits.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
 		ZEND = 68350;
+=======
+VECTOR("C:/Users/afa4/Desktop/ProjetoSD/Projeto/menorQue.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 39500;
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
 		NUMERATOR = 20;
 		DENOMINATOR = 1000;
 		TOP_INDEX = 0;
@@ -829,13 +837,21 @@ VECTOR("C:/Users/lams3/Desktop/ProjetoSD/Projeto/maiorque4bits.vwf")
 	LINE{
 		SIGNAL = "A";
 		INDEX = 0;
+<<<<<<< HEAD
 		FORMAT = T;
+=======
+		FORMAT = E;
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
+<<<<<<< HEAD
 		SIGNAL = "A[3]";
+=======
+		SIGNAL = "B";
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
 		INDEX = 1;
 		FORMAT = E;
 		SCALE = 1;
@@ -843,7 +859,11 @@ VECTOR("C:/Users/lams3/Desktop/ProjetoSD/Projeto/maiorque4bits.vwf")
 		FLAG = N;
 	}
 	LINE{
+<<<<<<< HEAD
 		SIGNAL = "A[2]";
+=======
+		SIGNAL = "Cin";
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -851,13 +871,186 @@ VECTOR("C:/Users/lams3/Desktop/ProjetoSD/Projeto/maiorque4bits.vwf")
 		FLAG = N;
 	}
 	LINE{
+<<<<<<< HEAD
 		SIGNAL = "A[1]";
+=======
+		SIGNAL = "pin_name";
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
+<<<<<<< HEAD
+	LINE{
+		SIGNAL = "A[0]";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "B";
+		INDEX = 5;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "B[3]";
+		INDEX = 6;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "B[2]";
+		INDEX = 7;
+=======
+}
+
+VECTOR("C:/Users/afa4/Desktop/ProjetoSD/Projeto/menorQue1bit.vwf")
+{
+	ZOOM{
+		ZBEGIN = 27360;
+		ZEND = 57760;
+		NUMERATOR = 20;
+		DENOMINATOR = 1000;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "A";
+		INDEX = 0;
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+<<<<<<< HEAD
+		SIGNAL = "B[1]";
+		INDEX = 8;
+=======
+		SIGNAL = "B";
+		INDEX = 1;
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+<<<<<<< HEAD
+		SIGNAL = "B[0]";
+		INDEX = 9;
+=======
+		SIGNAL = "Cin";
+		INDEX = 2;
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+<<<<<<< HEAD
+		SIGNAL = "Out";
+		INDEX = 10;
+=======
+		SIGNAL = "pin_name";
+		INDEX = 3;
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
+<<<<<<< HEAD
+VECTOR("C:/Users/lams3/Desktop/ProjetoSD/Projeto/maiorque1bit.vwf")
+=======
+VECTOR("C:/Users/afa4/Desktop/ProjetoSD/Projeto/menorQue4bits.vwf")
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 1000000;
+		NUMERATOR = 20;
+		DENOMINATOR = 1000;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "A";
+		INDEX = 0;
+<<<<<<< HEAD
+		FORMAT = E;
+=======
+		FORMAT = T;
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+<<<<<<< HEAD
+		SIGNAL = "B";
+=======
+		SIGNAL = "A[3]";
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
+		INDEX = 1;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+<<<<<<< HEAD
+		SIGNAL = "Cin";
+=======
+		SIGNAL = "A[2]";
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
+		INDEX = 2;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+<<<<<<< HEAD
+		SIGNAL = "Out";
+=======
+		SIGNAL = "A[1]";
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
+		INDEX = 3;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+<<<<<<< HEAD
+=======
 	LINE{
 		SIGNAL = "A[0]";
 		INDEX = 4;
@@ -914,55 +1107,5 @@ VECTOR("C:/Users/lams3/Desktop/ProjetoSD/Projeto/maiorque4bits.vwf")
 		VISIBLE = Y;
 		FLAG = N;
 	}
-}
-
-VECTOR("C:/Users/lams3/Desktop/ProjetoSD/Projeto/maiorque1bit.vwf")
-{
-	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 1000000;
-		NUMERATOR = 20;
-		DENOMINATOR = 1000;
-		TOP_INDEX = 0;
-	}
-	CLOCK{
-		PERIOD = 10000;
-		OFFSET = 0;
-		DUTY_CYCLE = 50;
-	}
-	RANDOM_VALUE{
-		INTERVAL_TYPE = HALF_GRID;
-	}
-	LINE{
-		SIGNAL = "A";
-		INDEX = 0;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "B";
-		INDEX = 1;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Cin";
-		INDEX = 2;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Out";
-		INDEX = 3;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
 }

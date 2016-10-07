@@ -38,7 +38,11 @@
 
 set_global_assignment -name FAMILY "Cyclone II"
 set_global_assignment -name DEVICE AUTO
+<<<<<<< HEAD
 set_global_assignment -name TOP_LEVEL_ENTITY maiorque1bit
+=======
+set_global_assignment -name TOP_LEVEL_ENTITY menorQue4bits
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:54:20  OCTOBER 05, 2016"
 set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
@@ -62,10 +66,22 @@ set_global_assignment -name BDF_FILE and4bits.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE and4bits.vwf
 set_global_assignment -name BDF_FILE xor4bits.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE xor4bits.vwf
+<<<<<<< HEAD
 set_global_assignment -name BDF_FILE menorQue.bdf
 set_global_assignment -name BDF_FILE maiorque1bit.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE maiorque1bit.vwf
 set_global_assignment -name BDF_FILE maiorque4bits.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE maiorque4bits.vwf
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE maiorque1bit.vwf
+=======
+set_global_assignment -name BDF_FILE menorQue1bit.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE menorQue1bit.vwf
+set_global_assignment -name BDF_FILE menorQue4bits.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name VECTOR_WAVEFORM_FILE menorQue4bits.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE menorQue4bits.vwf
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

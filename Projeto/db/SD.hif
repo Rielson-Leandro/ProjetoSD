@@ -105,14 +105,37 @@ AUTO
 
 # end
 # entity
-menorQue
+menorQue1bit
 # storage
 db|SD.(5).cnf
 db|SD.(5).cnf
 # case_insensitive
 # source_file
-menorque.bdf
-593e26a44055467c696dfc80fa46bef7
+menorque1bit.bdf
+c95fb3929728af22fae1323ef3dcd6
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+menorQue1bit:inst3
+menorQue1bit:inst4
+menorQue1bit:inst5
+menorQue1bit:inst6
+}
+# macro_sequence
+
+# end
+# entity
+menorQue4bits
+# storage
+db|SD.(6).cnf
+db|SD.(6).cnf
+# case_insensitive
+# source_file
+menorque4bits.bdf
+a0e61fd63eb26f5c7bbaaac8e7c08c83
 26
 # internal_option {
 BLOCK_DESIGN_NAMING

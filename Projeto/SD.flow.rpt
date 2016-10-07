@@ -1,5 +1,9 @@
 Flow report for SD
+<<<<<<< HEAD
 Fri Oct 07 11:52:15 2016
+=======
+Fri Oct 07 11:44:55 2016
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -38,17 +42,24 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +------------------------------------+----------------------------------------------+
+<<<<<<< HEAD
 ; Flow Status                        ; Successful - Fri Oct 07 11:52:15 2016        ;
 ; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                      ; SD                                           ;
 ; Top-level Entity Name              ; maiorque1bit                                 ;
+=======
+; Flow Status                        ; Successful - Fri Oct 07 11:44:55 2016        ;
+; Quartus II Version                 ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
+; Revision Name                      ; SD                                           ;
+; Top-level Entity Name              ; menorQue4bits                                ;
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
 ; Family                             ; Cyclone II                                   ;
 ; Met timing requirements            ; Yes                                          ;
-; Total logic elements               ; 1 / 68,416 ( < 1 % )                         ;
-;     Total combinational functions  ; 1 / 68,416 ( < 1 % )                         ;
+; Total logic elements               ; 3 / 68,416 ( < 1 % )                         ;
+;     Total combinational functions  ; 3 / 68,416 ( < 1 % )                         ;
 ;     Dedicated logic registers      ; 0 / 68,416 ( 0 % )                           ;
 ; Total registers                    ; 0                                            ;
-; Total pins                         ; 4 / 422 ( < 1 % )                            ;
+; Total pins                         ; 9 / 422 ( 2 % )                              ;
 ; Total virtual pins                 ; 0                                            ;
 ; Total memory bits                  ; 0 / 1,152,000 ( 0 % )                        ;
 ; Embedded Multiplier 9-bit elements ; 0 / 300 ( 0 % )                              ;
@@ -63,12 +74,17 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
+<<<<<<< HEAD
 ; Start date & time ; 10/07/2016 11:51:52 ;
+=======
+; Start date & time ; 10/07/2016 11:44:33 ;
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
 ; Main task         ; Compilation         ;
 ; Revision Name     ; SD                  ;
 +-------------------+---------------------+
 
 
+<<<<<<< HEAD
 +---------------------------------------------------------------------------------------------------------------------+
 ; Flow Non-Default Global Settings                                                                                    ;
 +------------------------------------+--------------------------------+---------------+--------------+----------------+
@@ -80,6 +96,19 @@ applicable agreement for further details.
 ; TOP_LEVEL_ENTITY                   ; maiorque1bit                   ; SD            ; --           ; --             ;
 ; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                            ; --            ; --           ; eda_blast_fpga ;
 +------------------------------------+--------------------------------+---------------+--------------+----------------+
+=======
++----------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                     ;
++------------------------------------+--------------------------------+---------------+---------------+----------------+
+; Assignment Name                    ; Value                          ; Default Value ; Entity Name   ; Section Id     ;
++------------------------------------+--------------------------------+---------------+---------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 17727280383870.147585147205896 ; --            ; --            ; --             ;
+; PARTITION_COLOR                    ; 16764057                       ; --            ; menorQue4bits ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                         ; --            ; menorQue4bits ; Top            ;
+; TOP_LEVEL_ENTITY                   ; menorQue4bits                  ; SD            ; --            ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                            ; --            ; --            ; eda_blast_fpga ;
++------------------------------------+--------------------------------+---------------+---------------+----------------+
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
 
 
 +-----------------------------------------------------------------------------------------------------------------------------+
@@ -87,11 +116,19 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+<<<<<<< HEAD
 ; Analysis & Synthesis    ; 00:00:02     ; 1.0                     ; 209 MB              ; 00:00:01                           ;
 ; Fitter                  ; 00:00:11     ; 1.9                     ; 366 MB              ; 00:00:11                           ;
 ; Assembler               ; 00:00:06     ; 1.0                     ; 336 MB              ; 00:00:04                           ;
 ; Classic Timing Analyzer ; 00:00:02     ; 1.0                     ; 167 MB              ; 00:00:00                           ;
 ; Total                   ; 00:00:21     ; --                      ; --                  ; 00:00:16                           ;
+=======
+; Analysis & Synthesis    ; 00:00:02     ; 1.0                     ; 210 MB              ; 00:00:01                           ;
+; Fitter                  ; 00:00:12     ; 2.5                     ; 366 MB              ; 00:00:13                           ;
+; Assembler               ; 00:00:05     ; 1.0                     ; 336 MB              ; 00:00:04                           ;
+; Classic Timing Analyzer ; 00:00:02     ; 1.0                     ; 168 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:21     ; --                      ; --                  ; 00:00:18                           ;
+>>>>>>> caa05f8ff70817d4f03728bdc785732d831880e8
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
