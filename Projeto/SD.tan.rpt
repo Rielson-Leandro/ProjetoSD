@@ -1,5 +1,5 @@
 Classic Timing Analyzer report for SD
-Fri Oct 07 10:43:16 2016
+Fri Oct 07 11:24:23 2016
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -34,14 +34,14 @@ applicable agreement for further details.
 
 
 
-+-----------------------------------------------------------------------------------------------------------------------------+
-; Timing Analyzer Summary                                                                                                     ;
-+------------------------------+-------+---------------+-------------+------+----------+------------+----------+--------------+
-; Type                         ; Slack ; Required Time ; Actual Time ; From ; To       ; From Clock ; To Clock ; Failed Paths ;
-+------------------------------+-------+---------------+-------------+------+----------+------------+----------+--------------+
-; Worst-case tpd               ; N/A   ; None          ; 9.818 ns    ; A    ; pin_name ; --         ; --       ; 0            ;
-; Total number of failed paths ;       ;               ;             ;      ;          ;            ;          ; 0            ;
-+------------------------------+-------+---------------+-------------+------+----------+------------+----------+--------------+
++------------------------------------------------------------------------------------------------------------------------+
+; Timing Analyzer Summary                                                                                                ;
++------------------------------+-------+---------------+-------------+------+-----+------------+----------+--------------+
+; Type                         ; Slack ; Required Time ; Actual Time ; From ; To  ; From Clock ; To Clock ; Failed Paths ;
++------------------------------+-------+---------------+-------------+------+-----+------------+----------+--------------+
+; Worst-case tpd               ; N/A   ; None          ; 13.055 ns   ; B[1] ; Out ; --         ; --       ; 0            ;
+; Total number of failed paths ;       ;               ;             ;      ;     ;            ;          ; 0            ;
++------------------------------+-------+---------------+-------------+------+-----+------------+----------+--------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -93,15 +93,20 @@ applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------+
-; tpd                                                           ;
-+-------+-------------------+-----------------+------+----------+
-; Slack ; Required P2P Time ; Actual P2P Time ; From ; To       ;
-+-------+-------------------+-----------------+------+----------+
-; N/A   ; None              ; 9.818 ns        ; A    ; pin_name ;
-; N/A   ; None              ; 5.632 ns        ; B    ; pin_name ;
-; N/A   ; None              ; 5.328 ns        ; Cin  ; pin_name ;
-+-------+-------------------+-----------------+------+----------+
++----------------------------------------------------------+
+; tpd                                                      ;
++-------+-------------------+-----------------+------+-----+
+; Slack ; Required P2P Time ; Actual P2P Time ; From ; To  ;
++-------+-------------------+-----------------+------+-----+
+; N/A   ; None              ; 13.055 ns       ; B[1] ; Out ;
+; N/A   ; None              ; 12.728 ns       ; A[2] ; Out ;
+; N/A   ; None              ; 12.244 ns       ; B[0] ; Out ;
+; N/A   ; None              ; 11.756 ns       ; A[0] ; Out ;
+; N/A   ; None              ; 11.611 ns       ; A[1] ; Out ;
+; N/A   ; None              ; 11.586 ns       ; B[2] ; Out ;
+; N/A   ; None              ; 7.751 ns        ; B[3] ; Out ;
+; N/A   ; None              ; 7.575 ns        ; A[3] ; Out ;
++-------+-------------------+-----------------+------+-----+
 
 
 +--------------------------+
@@ -110,18 +115,20 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Classic Timing Analyzer
     Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
-    Info: Processing started: Fri Oct 07 10:43:16 2016
+    Info: Processing started: Fri Oct 07 11:24:23 2016
 Info: Command: quartus_tan --read_settings_files=off --write_settings_files=off SD -c SD --timing_analysis_only
 Info: Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info: Longest tpd from source pin "A" to destination pin "pin_name" is 9.818 ns
-    Info: 1: + IC(0.000 ns) + CELL(0.830 ns) = 0.830 ns; Loc. = PIN_C12; Fanout = 1; PIN Node = 'A'
-    Info: 2: + IC(5.026 ns) + CELL(0.393 ns) = 6.249 ns; Loc. = LCCOMB_X47_Y50_N0; Fanout = 1; COMB Node = 'inst5~0'
-    Info: 3: + IC(0.791 ns) + CELL(2.778 ns) = 9.818 ns; Loc. = PIN_B12; Fanout = 0; PIN Node = 'pin_name'
-    Info: Total cell delay = 4.001 ns ( 40.75 % )
-    Info: Total interconnect delay = 5.817 ns ( 59.25 % )
+Info: Longest tpd from source pin "B[1]" to destination pin "Out" is 13.055 ns
+    Info: 1: + IC(0.000 ns) + CELL(0.872 ns) = 0.872 ns; Loc. = PIN_B2; Fanout = 1; PIN Node = 'B[1]'
+    Info: 2: + IC(6.047 ns) + CELL(0.420 ns) = 7.339 ns; Loc. = LCCOMB_X61_Y50_N0; Fanout = 1; COMB Node = 'menorQue1bit:inst3|inst5~0'
+    Info: 3: + IC(0.241 ns) + CELL(0.420 ns) = 8.000 ns; Loc. = LCCOMB_X61_Y50_N2; Fanout = 1; COMB Node = 'menorQue1bit:inst3|inst5~1'
+    Info: 4: + IC(0.241 ns) + CELL(0.150 ns) = 8.391 ns; Loc. = LCCOMB_X61_Y50_N20; Fanout = 1; COMB Node = 'menorQue1bit:inst3|inst5~2'
+    Info: 5: + IC(1.895 ns) + CELL(2.769 ns) = 13.055 ns; Loc. = PIN_F21; Fanout = 0; PIN Node = 'Out'
+    Info: Total cell delay = 4.631 ns ( 35.47 % )
+    Info: Total interconnect delay = 8.424 ns ( 64.53 % )
 Info: Quartus II Classic Timing Analyzer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 182 megabytes
-    Info: Processing ended: Fri Oct 07 10:43:16 2016
+    Info: Processing ended: Fri Oct 07 11:24:23 2016
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 

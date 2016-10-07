@@ -1,5 +1,47 @@
-|menorQue
-pin_name <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+|menorQue4bits
+Out <= menorQue1bit:inst3.Cout
+A[0] => menorQue1bit:inst6.A
+A[1] => menorQue1bit:inst5.A
+A[2] => menorQue1bit:inst4.A
+A[3] => menorQue1bit:inst3.A
+B[0] => menorQue1bit:inst6.B
+B[1] => menorQue1bit:inst5.B
+B[2] => menorQue1bit:inst4.B
+B[3] => menorQue1bit:inst3.B
+
+
+|menorQue4bits|menorQue1bit:inst3
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst3.IN0
+Cin => inst4.IN0
+A => inst7.IN0
+A => inst6.IN0
+B => inst4.IN1
+B => inst.IN1
+
+
+|menorQue4bits|menorQue1bit:inst4
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst3.IN0
+Cin => inst4.IN0
+A => inst7.IN0
+A => inst6.IN0
+B => inst4.IN1
+B => inst.IN1
+
+
+|menorQue4bits|menorQue1bit:inst5
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+Cin => inst3.IN0
+Cin => inst4.IN0
+A => inst7.IN0
+A => inst6.IN0
+B => inst4.IN1
+B => inst.IN1
+
+
+|menorQue4bits|menorQue1bit:inst6
+Cout <= inst5.DB_MAX_OUTPUT_PORT_TYPE
 Cin => inst3.IN0
 Cin => inst4.IN0
 A => inst7.IN0
